@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+/*=== Global style ===*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250 250 249);
+  font-family: 'Sora', sans-serif;
+}
+
+/*=== Main Design ===*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10.25rem;
+  display: flex;
+  height: 100vh;
+  max-width: 1280px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  max-width: 23rem;
+  border-radius: 1.25rem;
+  background-color: rgb(255 255 255);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.25rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card-img {
+  border-radius: 0.75rem;
+}
+
+.card-tag {
+  border-radius: 1rem;
+  background-color: rgb(230 214 252);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  color: rgb(136 58 225);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.card-tittle-desc {
+  border-bottom: 1px solid #e5eaf0;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: rgb(32 41 58);
+}
+
+.card-desc {
+  margin-top: 0.5rem;
+  margin-bottom: 1.25rem;
+  text-align: left;
+  font-size: 0.875rem;
+  color: rgb(108 114 127);
+}
+
+.card-author {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgb(108 114 127);
+}
